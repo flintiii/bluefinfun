@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 install -y tmux pluma gparted micropython screen
+dnf5 install -y tmux pluma gparted micropython screen x3270
 
 # Use a COPR Example:
 #
